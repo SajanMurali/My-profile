@@ -1,0 +1,58 @@
+{% extends "core/base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT ME</h1>
+<div class="row text-white mb-5">
+    <p class="mx-auto mt-3">If you have any questions,Please do not hesitate to contact me.I will come back to you within a matter of hours to help you.</p>
+    <div class="col-sm-9 mb-5">
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <form class="row g-3 mt-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="mt-5">
+                <label for="Inputtextarea">Your Massage *</label>
+                <textarea class="form-control" id="InputTextarea" required></textarea>
+                        </div>
+                        <button class="btn btn-warning mt-3" type="Submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+                        <p class="mt-2">Thiruvananthapuram, Kerala, India</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+                        <p class="mt-2"> +91 8848990829,+91 7022166440</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-at mt-3 fa-2x i-color"></i>
+                        <p class="mt-2">sajanmurali@ymail.com</p>
+                    </li>
+                    </ul>
+                    </div>
+                                    
+    </div>
+</div>
+</div>
+<div class="text-center">
+    <a href="#" target="_blank"><i class="fab fa-twitter fa-2x mr-3 i-color"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-facebook fa-2x mr-3 i-color"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-instagram fa-2x mr-3 i-color"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-dribbble fa-2x mr-3 i-color"></i></a>
+</div>
+{% endblock content %}

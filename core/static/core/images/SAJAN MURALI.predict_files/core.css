@@ -1,0 +1,37 @@
+/* Font */
+.st-font {
+    font-family: 'Smooch', cursive;
+}
+
+html,
+body{
+height:100%;
+} 
+
+.container-fluid{
+    min-height:100%;
+}
+
+/* Services Icon Color */
+.i-color {
+    color:#ffd700;
+}
+
+/* Service Subtitle Color */
+.ss-color {
+    color:rgb(253, 253, 250);
+}
+
+a.nav-link {
+    color:rgb(230, 248, 68);
+}
+
+a.nav-link:hover {
+    color:black;
+    background-color: #e9cd79;
+}
+a.nav-link.active {
+    color:black;
+    background-color: #eeeeee;
+    font-weight: bold;
+}
